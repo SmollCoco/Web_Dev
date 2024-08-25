@@ -1,7 +1,9 @@
 const clock = document.getElementById("clock");
 let date = new Date();
 
-const zeroPad = (num, places) => String(num).padStart(places, "0");
+function zeroPad(int, n) {
+    return String(int).padStart(n, "0");
+}
 function change() {
     date = new Date();
     clock.textContent = `${zeroPad(date.getHours(), 2)}:${zeroPad(
