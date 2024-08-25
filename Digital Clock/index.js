@@ -3,7 +3,7 @@ const clock = document.getElementById("clock");
 function zeroPad(int, n) {
     return int.toString().padStart(n, "0");
 }
-function change() {
+function update() {
     date = new Date();
     clock.textContent = `${zeroPad(date.getHours(), 2)}:${zeroPad(
         date.getMinutes(),
