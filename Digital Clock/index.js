@@ -1,8 +1,7 @@
 const clock = document.getElementById("clock");
-let date = new Date();
 
 function zeroPad(int, n) {
-    return String(int).padStart(n, "0");
+    return int.toString().padStart(n, "0");
 }
 function change() {
     date = new Date();
@@ -12,5 +11,5 @@ function change() {
     )}:${zeroPad(date.getSeconds(), 2)}`;
 }
 
-change();
-setInterval(change, 1000);
+update();
+setInterval(update, 1000);

@@ -10,6 +10,7 @@ body {
     height: 100vh;
     width: 100vi;
     background-image: url("https://wallpaperaccess.com/full/221008.jpg");
+    background-position: center;
 }
 #clock {
     border-radius: 30px;
@@ -18,4 +19,5 @@ body {
     font-size: 8em;
     color: hsl(0, 100%, 22%);
     backdrop-filter: blur(6px);
+    background-color: hsla(0, 0%, 100%, 0.106);
 }
