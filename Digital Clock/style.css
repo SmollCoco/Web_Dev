@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vi;
+    background-image: url("https://wallpaperaccess.com/full/221008.jpg");
+}
+#clock {
+    border-radius: 30px;
+    padding: 15px;
+    font-family: "cascadia code", sans-serif;
+    font-size: 8em;
+    color: hsl(0, 100%, 22%);
+    backdrop-filter: blur(6px);
+}
